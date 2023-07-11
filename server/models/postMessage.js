@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+//mongodb schema object to create entries and apply the functions of mongo like find, insert directly
 const postSchema = new mongoose.Schema({
   title: String,
   message: String,
