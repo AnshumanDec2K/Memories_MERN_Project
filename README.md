@@ -75,8 +75,25 @@ Accessing the data across components from the global redux datastore:
 Adding file field in the form:
 -> To add the file field in the form we use the firebase module and its tag to fetch any file in the form
 
+
+
 For the CRUD operations:
+
 -> We need to add up actions and dispatch them so that we get the operations request from the backend
+
 -> In the backend we need to create the endpoints in the controller so that the UI requests can be handled in the backend
+
+
+Using .env file:
+
+-> we first need to create a .env file in the backend folder
+
+-> we then install the dotenv node module 
+
+-> we then set up all the required variables in the .env file 
+
+-> in the index.js file we need to import dotenv from 'dotenv'
+
+-> after importing the same we do dotenv.config() following the express app creation
 
 
