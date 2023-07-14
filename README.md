@@ -97,3 +97,30 @@ Using .env file:
 -> after importing the same we do dotenv.config() following the express app creation
 
 
+
+Google OAuth creation:
+
+-> for the ID creation we head over to "https://console.cloud.google.com/projectselector2/apis/dashboard?supportedpurview=project"
+
+-> then go  to OAuth consent screen and then create up a project
+
+-> after creating up the project we come to the credentials tab and create the credential for our project
+
+-> while adding the URIs we add the URI with and without the port number
+
+-> then the client ID provided generated is put against the clientId attribute in the GoogleOAuthProvider tag in the react App
+
+-> the GoogleLogin tag is then wrapped within the GoogleOAuthProvider component
+
+-> sometimes there might be error due to cache, it will work fine once the browser cache is cleared up
+
+-> then to acess the actual credentials from the payload we use the jwt-decode npm package and then 
+
+
+Keeping Track of session and accessing the Profile after successfull google login
+
+-> we use the localStorage.setItem('key', JSON.stringify()) to save the credential details for future sessional references
+
+-> while logging out we use localStorage.clear() to remove the entries in the local storage.
+
+
