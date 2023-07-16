@@ -133,4 +133,40 @@ Keeping Track of session and accessing the Profile after successful google login
 
 -> while logging out we use localStorage.clear() to remove the entries in the local storage.
 
+___________________________________
+User authentication in the backend:
+-----------------------------------
+
+-> we need to create up the routes and the controllers for the signin and signup thing
+
+-> in both the route's controller we fetch the user by matching up the email's which is the primary key using the user model
+
+-> for the signin controller we need to use the bcrypt.compare() to compare the entered password with the one which is associated with the user present in the db
+
+-> if the match is successful then we use the jwt.sign() method which takes in the paramerter to be encoded along with a secret key attribute and an expires in attribute
+
+-> for the signup controller we need to use the bcrypt.hash() method to hash the password with another attribute called salt(usually an integer denoting the degree of hashing)
+
+-> then after creation of the hashed password we add the same as an entry inside the db
+
+-> finally after the insertion into the db we use the jwt.sign() to create the token
+
+____________________________________
+Using the authentication middleware:
+------------------------------------
+
+-> inorder to enable the user to perform certain actions on being signed in is achieved by the authentication middleware
+
+-> it uses the jwt.split() method to spot the encrypted jwt in the token generated
+
+-> the obtained token is then used to verify if the passed token is fetching the correct user id associated using the jwt.verify(obtained token, secret key)
+
+-> the google token is also decoded checking the length of the token passed which is greater than 500 
+
+-> the middleware has a next() method which is called up once the middleware executes successfully
+
+-> finally in the routes the auth middleware is passed after the route path to implement the same over the routes
+
+
+
 
