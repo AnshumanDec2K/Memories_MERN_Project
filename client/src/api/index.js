@@ -1,5 +1,6 @@
 import axios from "axios";
 
+//this is used to create a base url
 const API = axios.create({ baseURL: "http://localhost:5000" });
 
 API.interceptors.request.use((req) => {
