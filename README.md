@@ -115,6 +115,8 @@ Google OAuth Integration:
 
 -> while adding the URIs we add the URI with and without the port number
 
+-> we also need to add up the URLs for the sites where the deployments have happened for the authentication to take place successfully
+
 -> then the client ID provided generated is put against the clientId attribute in the GoogleOAuthProvider tag in the react App
 
 -> the GoogleLogin tag is then wrapped within the GoogleOAuthProvider component
