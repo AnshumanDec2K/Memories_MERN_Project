@@ -75,7 +75,7 @@ const SignUp = () => {
   };
 
   const handleChange = (e) =>
-    setForm({ ...form, [e.target.name]: e.target.value });
+    setForm({ ...form, [e.target.name]: e.target.value }); //this is done to capture the corresponding namefields with their values
 
   return (
     <Container component="main" maxWidth="xs">
