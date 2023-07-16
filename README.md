@@ -2,13 +2,13 @@
 
 Steps
 -----
--> initialised the client and server folders
+-> Initialised the client and server folders
 
--> inside the server folder we do have the index.js file which imports all the necessary modules like express, bodyParser, mongoose, cors
+-> Inside the server folder we do have the index.js file which imports all the necessary modules like express, bodyParser, mongoose, cors
 
--> to set the import statements in the ES6 format we add a parameter "type" : "module" inside the package.json file 
+-> to set the import statements in the ES6 format we add a parameter "type": "module" inside the package.json file 
 
--> we then initialise the expess app and then use the modules imported using the app.use middleware
+-> we then initialise the express app and then use the modules imported using the app.use middleware
 
 
 _____________________
@@ -166,6 +166,21 @@ Using the authentication middleware:
 -> the middleware has a next() method which is called up once the middleware executes successfully
 
 -> finally in the routes the auth middleware is passed after the route path to implement the same over the routes
+
+________________________________________________
+Modifications for the UI middleware integration:
+------------------------------------------------
+
+-> in the api's routes file we use the bearer token using the .interceptors.request.use() middleware
+
+__________________
+Advanced features:
+------------------
+
+-> there are some advanced features like the like and delete button will show up only over the posts created by the user
+
+-> auto logout after the token is expired for the user
+
 
 
 
