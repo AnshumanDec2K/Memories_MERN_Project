@@ -2,13 +2,13 @@ UI
 --
 
 =>Search, Memory Creation Form, Pagination, Memory Cards with Like and Delete functionalities
-![ss2](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/dfb9eafb-9715-4276-addb-aa26da682377)
+![ss2](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/a22698c5-0169-4242-a89b-e0280962ad49)
 
 =>SignIn and SignUp window with JWT authentication and Google OAuth functionality
-![ss5](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/82593be1-ddb9-493d-a0f4-a850058815b4)
+![ss5](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/abb78f1d-7675-4943-abed-bdb2605680bf)
 
 =>Memory Details page with comments and memories recommendation
-![ss3](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/43e467c3-290a-484a-9f82-71486381f850)
+![ss3](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/7a3dba66-d122-426c-8f2c-9febe76c59c0)
 
 
 _____
