@@ -1,4 +1,4 @@
-# Memories_MERN_Project
+![image](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/d7567e11-e05c-458b-ac0d-ff3c561cf713)# Memories_MERN_Project
 
 Steps
 -----
@@ -198,6 +198,17 @@ Search, Pagination and recommendation:
 -> for the search functionality we match up the tittle or the tags associated 
 
 -> and finally for the recommendation we use the search functionality via tags to gather the recommendations
+
+
+________________
+Group By Creator
+-----------------
+
+-> the user has the option to view memories from a creator's POV
+
+![ss1](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/f29eb8e7-f938-44ec-a24a-2d745bdfc5af)
+
+
 
 
 
