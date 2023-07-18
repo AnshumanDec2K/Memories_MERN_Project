@@ -181,6 +181,24 @@ Advanced features:
 
 -> auto logout after the token is expired for the user
 
+______________________________________
+Search, Pagination and recommendation:
+--------------------------------------
+
+-> for all the functionality we need to create up endpoints in the backend and their respective frontend request points
+
+-> in the frontend we need to create up actions for the same and then dispatch the actions via reducers
+
+-> in the backend we create up the routes and their corresponding controllers 
+
+-> for the UI changes we use the Pagination from MUI
+
+-> we calculate the page number and the number of total number of pages along with the pages to which a particular post belongs to
+
+-> for the search functionality we match up the tittle or the tags associated 
+
+-> and finally for the recommendation we use the search functionality via tags to gather the recommendations
+
 
 
 
