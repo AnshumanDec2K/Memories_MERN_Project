@@ -1,6 +1,6 @@
 UI
 --
---
+
 =>Pagination, Search, Memory Cards with Like and Delete functionalities
 ![ss2](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/dfb9eafb-9715-4276-addb-aa26da682377)
 
