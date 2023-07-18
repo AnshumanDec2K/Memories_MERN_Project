@@ -1,17 +1,14 @@
 import mongoose from "mongoose";
 
-//mongodb schema object to create entries and apply the functions of mongo like find, insert directly
-const postSchema = new mongoose.Schema({
+const postSchema = mongoose.Schema({
   title: String,
   message: String,
   name: String,
   creator: String,
   tags: [String],
   selectedFile: String,
-  likes: {
-    type: [String],
-    default: [],
-  },
+  likes: { type: [String], default: [] },
+  comments: { type: [String], default: [] },
   createdAt: {
     type: Date,
     default: new Date(),
