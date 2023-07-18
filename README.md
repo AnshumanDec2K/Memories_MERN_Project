@@ -1,4 +1,4 @@
-# Memories_MERN_Project
+![image](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/d7567e11-e05c-458b-ac0d-ff3c561cf713)# Memories_MERN_Project
 
 Steps
 -----
@@ -206,7 +206,9 @@ Group By Creator
 
 -> the user has the option to view memories from a creator's POV
 
-![Uploading image.png…]()
+![ss1](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/f29eb8e7-f938-44ec-a24a-2d745bdfc5af)
+
+
 
 
 
