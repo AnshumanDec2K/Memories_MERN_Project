@@ -200,6 +200,15 @@ Search, Pagination and recommendation:
 -> and finally for the recommendation we use the search functionality via tags to gather the recommendations
 
 
+________________
+Group By Creator
+-----------------
+
+-> the user has the option to view memories from a creator's POV
+
+![Uploading image.png…]()
+
+
 
 
 
