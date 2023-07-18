@@ -4,8 +4,10 @@ UI
 =>Search, Memory Creation Form, Pagination, Memory Cards with Like and Delete functionalities
 ![ss2](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/a22698c5-0169-4242-a89b-e0280962ad49)
 
+
 =>SignIn and SignUp window with JWT authentication and Google OAuth functionality
 ![ss5](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/abb78f1d-7675-4943-abed-bdb2605680bf)
+
 
 =>Memory Details page with comments and memories recommendation
 ![ss3](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/7a3dba66-d122-426c-8f2c-9febe76c59c0)
@@ -218,11 +220,14 @@ Group By Creator or Tags
 
 -> the user has the option to view memories from a creator's POV
 
-![ss1](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/f29eb8e7-f938-44ec-a24a-2d745bdfc5af)
+![ss1](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/828c42ee-36a1-430e-a70c-666715dd9bca)
+
+
 
 -> the user has the option to view memories by selecting the tags
 
-![ss4](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/690b533e-126c-4e03-be5d-240506304154)
+![ss4](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/874f5ce6-db6c-491f-931c-5960911d237c)
+
 
 
 
