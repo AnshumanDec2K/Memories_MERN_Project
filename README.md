@@ -1,5 +1,17 @@
-![image](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/d7567e11-e05c-458b-ac0d-ff3c561cf713)# Memories_MERN_Project
+UI
+--
+--
+=>Pagination, Search, Memory Cards with Like and Delete functionalities
+![ss2](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/dfb9eafb-9715-4276-addb-aa26da682377)
 
+=>SignIn and SignUp window with JWT authentication and Google OAuth functionality
+![ss5](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/82593be1-ddb9-493d-a0f4-a850058815b4)
+
+=>Memory Details page with comments and memories recommendation
+![ss3](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/43e467c3-290a-484a-9f82-71486381f850)
+
+
+_____
 Steps
 -----
 -> Initialised the client and server folders
@@ -200,13 +212,18 @@ Search, Pagination and recommendation:
 -> and finally for the recommendation we use the search functionality via tags to gather the recommendations
 
 
-________________
-Group By Creator
------------------
+________________________
+Group By Creator or Tags
+------------------------
 
 -> the user has the option to view memories from a creator's POV
 
 ![ss1](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/f29eb8e7-f938-44ec-a24a-2d745bdfc5af)
+
+-> the user has the option to view memories by selecting the tags
+
+![ss4](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/690b533e-126c-4e03-be5d-240506304154)
+
 
 
 
