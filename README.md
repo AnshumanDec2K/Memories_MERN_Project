@@ -24,7 +24,7 @@ Steps
 
 
 _____________________
-#connecting to the DB:
+Connecting to the DB:
 ----------------------
 
 -> created a mongodb cluster and then a user is created and there is a connection string generated for the cluster to be connected via the node app
@@ -34,7 +34,7 @@ _____________________
 -> we then do mongoose.connect(URL).then(()=>{}).catch(()=>{}) inorder to connect to the mongodb cluster
 
 __________________________
-#connecting to the routes:
+Connecting to the routes:
 --------------------------
 
 -> creating a routes folder which houses all the express routes using the express.router()
