@@ -1,5 +1,19 @@
-![image](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/d7567e11-e05c-458b-ac0d-ff3c561cf713)# Memories_MERN_Project
+UI
+--
 
+=>Search, Memory Creation Form, Pagination, Memory Cards with Like and Delete functionalities
+![ss2](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/a22698c5-0169-4242-a89b-e0280962ad49)
+
+
+=>SignIn and SignUp window with JWT authentication and Google OAuth functionality
+![ss5](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/abb78f1d-7675-4943-abed-bdb2605680bf)
+
+
+=>Memory Details page with comments and memories recommendation
+![ss3](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/7a3dba66-d122-426c-8f2c-9febe76c59c0)
+
+
+_____
 Steps
 -----
 -> Initialised the client and server folders
@@ -12,7 +26,7 @@ Steps
 
 
 _____________________
-#connecting to the DB:
+Connecting to the DB:
 ----------------------
 
 -> created a mongodb cluster and then a user is created and there is a connection string generated for the cluster to be connected via the node app
@@ -22,7 +36,7 @@ _____________________
 -> we then do mongoose.connect(URL).then(()=>{}).catch(()=>{}) inorder to connect to the mongodb cluster
 
 __________________________
-#connecting to the routes:
+Connecting to the routes:
 --------------------------
 
 -> creating a routes folder which houses all the express routes using the express.router()
@@ -200,13 +214,21 @@ Search, Pagination and recommendation:
 -> and finally for the recommendation we use the search functionality via tags to gather the recommendations
 
 
-________________
-Group By Creator
------------------
+________________________
+Group By Creator or Tags
+------------------------
 
 -> the user has the option to view memories from a creator's POV
 
-![ss1](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/f29eb8e7-f938-44ec-a24a-2d745bdfc5af)
+![ss1](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/828c42ee-36a1-430e-a70c-666715dd9bca)
+
+
+
+-> the user has the option to view memories by selecting the tags
+
+![ss4](https://github.com/AnshumanDec2K/Memories_MERN_Project/assets/91108386/874f5ce6-db6c-491f-931c-5960911d237c)
+
+
 
 
 
