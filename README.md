@@ -20,37 +20,37 @@ Steps
 
 -> Inside the server folder we do have the index.js file which imports all the necessary modules like express, bodyParser, mongoose, cors
 
--> to set the import statements in the ES6 format we add a parameter "type": "module" inside the package.json file 
+-> To set the import statements in the ES6 format in the backend we add a parameter "type": "module" inside the package.json file 
 
--> we then initialise the express app and then use the modules imported using the app.use middleware
+-> We then initialise the express app and then use the modules imported using the app.use middleware
 
 
 _____________________
 Connecting to the DB:
 ----------------------
 
--> created a mongodb cluster and then a user is created and there is a connection string generated for the cluster to be connected via the node app
+-> A Mongodb cluster is created and a connection string generated for the cluster to be connected via the node app
 
--> we then add the respective password and use encoding for any special charaters used in the password
+-> We then add the respective password and use encoding for any special charaters used in the password(in connection string special characters are encoded can check web for the same)
 
--> we then do mongoose.connect(URL).then(()=>{}).catch(()=>{}) inorder to connect to the mongodb cluster
+-> We then do mongoose.connect(URL).then(()=>{}).catch(()=>{}) inorder to connect to the mongodb cluster
 
 __________________________
 Connecting to the routes:
 --------------------------
 
--> creating a routes folder which houses all the express routes using the express.router()
+-> Creating a routes folder which houses all the express routes using the express.router()
 
--> we then use the controllers for the corresponding callback functions for the router.methods() like get, post, etc
+-> We then use the controllers for the corresponding callback functions for the router.methods() like get, post, etc
 
--> we then import the router in the index.js file and then with the help of the use() midleware pass the route and the router 
+-> We then import the router in the index.js file and then with the help of the use() midleware pass the route and the router 
 
 
 ____________
 Redux setup:
 ------------
 
--> we create a reducers folder which has posts and the index file
+-> We create a reducers folder which has posts and the index file
 
 -> In the posts reducer file we create the reducer which takes in the state and action as parameter
 
